@@ -1,2 +1,2 @@
 # HTML-CSS-BOOTSTRAP3
-Front0-end of a floral website
+Front-end of a floral website
