@@ -1,0 +1,58 @@
+/* body{
+    background-image: linear-gradient(to right,olive , green);
+} */
+
+/* *{
+    margin: 0;
+    padding: 0;
+    font-family:  'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+} */
+
+body{
+    /* background-color: rgb(95, 95, 241); */
+    background-image: linear-gradient(to right, rgb(228, 17, 17) 0%, rgb(95, 95, 241) 100%);  
+    /* background-color: rgb(64, 119, 223); */
+    /* background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%), */
+            /* linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%), */
+            /* linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%); */
+    /* background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c); */
+    /* background-image: linear-gradient( #3f87a6, #ebf8e1, #f69d3c); */
+}
+
+.contactform{
+    border: 5px solid peachpuff;
+    border-radius: 20px;
+    width: 600px;
+    padding: 50px;
+    margin-bottom: 50px;
+    background:linear-gradient(45deg,#e66465, #7f98eb, rgb(248, 14, 14));
+}
+   
+.logo{
+    color: black;
+    font-size: 2rem;
+}
+
+.heading{
+    margin-top: 100px;
+    padding: 50px;
+}
+
+.heading h2{
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+@media only screen and (max-width:600px){
+    .contactform{
+        width:400px
+    }
+    .heading h2{
+        font-size: 2rem;
+    }
+    .heading h1{
+        font-size: 1rem;
+    }
+}
+

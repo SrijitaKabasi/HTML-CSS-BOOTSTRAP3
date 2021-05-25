@@ -1,0 +1,95 @@
+body{
+   /* background-color: rgb(252, 181, 89);*/
+    /* background: linear-gradient(to right, #f8f522 0%, #fabf1c 100%); */
+    background: linear-gradient(to right, #f8f522 0%, #ffbb00 100%);
+}
+
+
+.top_img{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+#d2 img{
+    border-radius: 20px;
+    box-shadow: 10px 5px 5px grey;  /* offset-x | offset-y | blur-radius | color */
+}
+
+#d1{
+    margin-top: 100px;
+}
+
+.text{
+    /*margin:0;
+    font-size: 4rem;
+    font-weight: 100;
+    font-family: 'Merienda', cursive;
+    font-style: italic;*/
+    text-transform: uppercase;
+	background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 4rem;
+    font-family: 'Merienda', cursive;
+}
+
+@media(max-width:1200px){
+    #d1 h1{
+        font-size: 3rem;
+    }
+}
+
+@media(max-width:800px){
+    #d1 h1{
+        font-size: 2rem;
+    }
+}
+
+.cont p{
+    font-size: 2rem;
+    margin: 10px;
+    font-family: 'Sacramento', cursive;
+}
+
+.cont img{
+    border-radius: 10px;
+}
+ 
+.cont h1{
+    font-family: 'Merienda', cursive;
+}
+
+#lower{
+    background-image: linear-gradient(grey, rgba(97, 93, 93, 0.644));
+    background-size: 100% auto;
+    padding: 20px;
+}
+
+.logo{
+    color: black;
+    font-size: 2rem;
+}
+
+.hh3{
+    font-weight:500;
+    color: black;
+}
+
+@media(max-width:550px){
+    .hh3{
+        font-size:1.125rem;
+        color: black;
+    }
+}
+
+@media(max-width:740px){
+    .cont p{
+        font-size: 1rem;
+        margin: 5px;
+    }
+
+    .cont h1{
+        font-size: 1.5rem;
+    }
+}
+

@@ -1,0 +1,80 @@
+body{
+    background-image: url("flowers/nature2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.top{
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+.top h1 {
+    color: cornsilk;
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+.top h2{
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+    font-weight: 200;
+    line-height: 2;
+    font-style: italic;
+    color: rgb(248, 246, 237);
+}
+
+.top p{    
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 2;
+    color: rgb(252, 208, 15);
+    font-family: 'Kaushan Script', cursive;
+}
+
+
+@media(max-width:645px){
+    .top h1{
+        font-size: 2.5rem;
+    }
+
+    .top h2{
+        font-size: 1.5rem;
+    }
+
+    .top p{
+        font-size: 1rem;
+    }
+}
+
+.logo{
+    color: black;
+    font-size: 2rem;
+}
+
+#lower{
+    background-image: linear-gradient(rgb(112, 108, 108), rgba(97, 93, 93, 0.788));
+    background-size: 100% auto;
+    padding: 20px;
+}
+
+#topmost{
+    padding:20px;
+}
+
+.navbar.scrolled{
+    background: rgb(rgb(145, 140, 140));
+    transition: background 500ms;
+}
+
+.hh3{
+    font-weight:500;
+    color: black;
+}
+
+@media(max-width:550px){
+    .hh3{
+        font-size:1.125rem;
+        color: black;
+    }
+}
